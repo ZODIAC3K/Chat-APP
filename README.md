@@ -22,16 +22,16 @@ RealTimeChat is a dynamic and efficient chat application built using PHP, HTML, 
 
 1. Clone the repository to your local environment.
 2. Set up the MySQL database using the provided schema.
-3. Configure the database credentials in the PHP configuration files.
+3. Import the database from db folder then configure it to run on your system.
 4. Host the application on a web server with PHP support.
 
 **Usage:**
 
 1. Register an account with a unique email address.
 2. Upload a profile image to personalize your account.
-3. Search for other users using their email addresses.
+3. Search for other users using their name.
 4. Initiate chats with online users in almost real time.
-5. Enjoy secure and swift communication within the app.
+5. Enjoy swift communication within the app.
 
 **Dependencies:**
 
