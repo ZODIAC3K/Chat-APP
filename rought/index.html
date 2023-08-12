@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="loginContainer">
+        <h1>Login Form</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" >
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" >
+            
+            <button type="submit">Login</button>
+        </form>
+        <div id="errorText"></div>
+    </div>
+    <div class="container" id="dashboardContainer" style="display: none;">
+        <!-- Your dashboard content goes here -->
+        <h2>Welcome, <span id="userFullName"></span>!</h2>
+        <p>This is your dashboard.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
